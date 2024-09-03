@@ -13,6 +13,3 @@ In `/resources/`, the file `strings.json` is a file where you can add a variety 
 `interpreter.lua` is the quick interpreter that I made, pairing up with disassembled bytecode from `/bytecode/deserialize.lua` to interpret bytecode chunks. It is not fully working as the CLOSE opcode implementation is not yet there, but it should work (if not a little slowly) for all of the other opcodes.
 
 Additionally, a PDF of the final write-up which I created is available in the repository under `lua_internals.pdf`. You can follow this alongside the source code to help clear up how everything works, as although I have tried to comment my code and keep it readable, I understand how hard it is sometimes to actually understand other people's code - even my own work I sometimes struggle to follow!
-
-## Help/Support
-If you would like any help on this subject, I am available to give tips and explain anything that I might have poorly explained. My discord server is available to join [here](https://discord.gg/cWQAy6Z697).
